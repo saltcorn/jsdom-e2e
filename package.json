@@ -1,0 +1,19 @@
+{
+  "name": "jsdom-e2e",
+  "version": "0.1.0",
+  "description": "E2E testing with jsdom",
+  "main": "index.js",
+  "repository": "github:saltcorn/jsdom-e2e",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Tom Nielsen",
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^20.0.1",
+    "canvas": "^2.10.1"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
